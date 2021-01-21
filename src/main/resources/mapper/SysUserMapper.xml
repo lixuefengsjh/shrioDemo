@@ -33,12 +33,12 @@
     <id column="salt" property="salt"/>
     <collection property="ro" javaType="List" ofType="com.lxf.entity.vo.UserRoleVo" autoMapping="true">
       <id column="role_id" property="roleId"/>
-      <collection property="ro" javaType="List" ofType="com.lxf.entity.vo.MenuVo" autoMapping="true">
-        <id column="menu_name" property="menuName"/>
-<!--        <association property="item" javaType="com.zpc.mybatis.pojo.Item" autoMapping="true">-->
-<!--          <id column="item_id" property="id"/>-->
-<!--        </association>-->
-      </collection>
+<!--      <collection property="menu" javaType="List" ofType="com.lxf.entity.vo.MenuVo" autoMapping="true">-->
+<!--        <id column="menu_name" property="menuName"/>-->
+<!--&lt;!&ndash;        <association property="item" javaType="com.zpc.mybatis.pojo.Item" autoMapping="true">&ndash;&gt;-->
+<!--&lt;!&ndash;          <id column="item_id" property="id"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </association>&ndash;&gt;-->
+<!--      </collection>-->
     </collection>
   </resultMap>
 
@@ -293,7 +293,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </select>
-    <select id="getAllUserInfoByName" resultMap="UserInfoVo">
+    <select id="getAllUserInfoByName" resultMap="UserInfoVo" >
           SELECT
               *
           FROM

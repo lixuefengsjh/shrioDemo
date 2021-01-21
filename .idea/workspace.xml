@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06bfd7dc-f7ad-4768-8fb5-48f054d3299b" name="Default Changelist" comment="" />
+    <list default="true" id="06bfd7dc-f7ad-4768-8fb5-48f054d3299b" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/ShrioAoolication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysMenuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysMenuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysMenuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysMenuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleMenuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleMenuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleMenuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleMenuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysRoleMenuKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/SysUserRoleKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/dto/UserInfoDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/vo/MenuVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/vo/UserInfoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/entity/vo/UserRoleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/mapper/SysMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/mapper/SysRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/mapper/SysUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lxf/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/ShrioAoolication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/ShrioAoolication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/entity/vo/UserInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/entity/vo/UserInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/service/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/service/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +71,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nJa5Z32rCxzaEwl2PVHDqExhvM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -80,11 +133,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611110464971</updated>
-      <workItem from="1611110469423" duration="14170000" />
+      <workItem from="1611110469423" duration="15402000" />
+      <workItem from="1611190314265" duration="14244000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1611135015447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611135015447</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1611135050346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611135050346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lxf/controller/LoginController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lxf/service/LoginService.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

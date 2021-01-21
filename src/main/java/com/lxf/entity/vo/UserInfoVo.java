@@ -2,6 +2,7 @@ package com.lxf.entity.vo;
 
 import lombok.Data;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -22,5 +23,5 @@ public class UserInfoVo {
 
     private String salt;
 
-    private Set<UserRoleVo> ro;
+    private List<UserRoleVo> ro;
 }

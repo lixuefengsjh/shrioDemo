@@ -20,7 +20,7 @@ public class LoginService {
 
     public UserInfoVo getAllUserInfoByName(String userName){
         UserInfoVo userInfoVo= sysUserMapper.getAllUserInfoByName(userName);
-        log.info("查询出来的 userInfoVo :",userInfoVo);
+        log.info("查询出来的 userInfoVo :{s%}",userInfoVo);
         return  userInfoVo;
     };
 }

@@ -8,4 +8,8 @@ spring:
     url: jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
     username: root
     password: root
-
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+logging:
+  level:
+    com.lxf.mapper : debug
